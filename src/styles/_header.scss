@@ -1,0 +1,10 @@
+.header {
+  min-height: 70vh;
+  color: $color-white;
+  background-color: $color-primary;
+  
+  &__text-box {
+    width: 100%;
+    max-width: 900px;
+  }
+}

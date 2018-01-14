@@ -1,0 +1,42 @@
+// Color Variables
+$color-primary: #3e51b7;
+$color-secondary: #ea2c6a;
+
+$color-white: #fff;
+$color-font: #414141;
+
+$color-grey-light-1: #f9f7f6;
+
+// Font variables
+$font-primary: 'Poppins', sans-serif;
+
+// Responsive breakpoints
+$bp-largest: 75em; // 1200px
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10px/16px = 62.5% => 1rem = 16px
+  
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+}
+
+body {
+  color: red;
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 1.1px;
+  text-rendering: optimizeLegibility;
+}
