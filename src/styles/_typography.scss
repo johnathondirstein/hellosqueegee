@@ -11,3 +11,36 @@
   font-size: 1.2rem;
   animation: moveInLeft 2s ease-in-out;
 }
+
+.section__title {
+  font-size: 3rem;
+  color: $color-white;
+  font-weight: 500;
+
+  &--dark {
+    color: $color-font;
+  }
+
+  &--thick {
+    font-weight: 600;
+  }
+
+  &--b-bottom:after {
+    display: block;
+    height: 4px;
+    background-color: $color-secondary;
+    content: " ";
+    width: 15rem;
+    margin-top: 2rem;
+  }
+} 
+
+// Icon misc
+
+.icon--green {
+  color: $color-green;
+}
+
+.paragraph {
+  font-size: 1.7rem;
+}

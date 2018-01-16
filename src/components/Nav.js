@@ -5,7 +5,8 @@ class Nav extends Component {
   render() {
     return (
       <nav className="nav">
-        <div className="u-row u-display-flex u-space-between u-align-items u-flex-wrap">
+        <span className="nav__top-border"></span>
+        <div className="u-wrapper u-display-flex u-space-between u-align-items u-flex-wrap">
           <NavLink to="/"><h2 className="nav__logo">Hellosqueegee</h2></NavLink>
           <ul className="nav__list">
             <li className="nav__list-items">

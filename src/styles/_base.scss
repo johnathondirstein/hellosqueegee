@@ -3,7 +3,9 @@ $color-primary: #3e51b7;
 $color-secondary: #ea2c6a;
 
 $color-white: #fff;
-$color-font: #414141;
+$color-black: #000;
+$color-green: #11b880;
+$color-font: #252535;
 
 $color-grey-light-1: #f9f7f6;
 
@@ -33,7 +35,7 @@ html {
 }
 
 body {
-  color: red;
+  color: $color-font;
   font-family: $font-primary;
   font-weight: 300;
   line-height: 1.6;
